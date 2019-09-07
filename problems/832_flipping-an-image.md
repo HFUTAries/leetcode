@@ -66,3 +66,4 @@ int** flipAndInvertImage(int** A, int ASize, int* AColSize, int* returnSize, int
 ```
 
 ## 运行结果
+![image](https://github.com/ariesblog/img-folder/blob/master/20190907162737.png)
