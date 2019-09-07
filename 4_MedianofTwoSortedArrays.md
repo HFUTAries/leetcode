@@ -17,8 +17,8 @@
     The median is 2.0
 	
     Example 2:
-	nums1 = [1, 2]
-	nums2 = [3, 4]
+        nums1 = [1, 2]
+        nums2 = [3, 4]
 
     The median is (2 + 3)/2 = 2.5
 
@@ -68,15 +68,19 @@
     
     4 < 5
     
-    4存入数组nums[]   index++；// 并不把3存入数组。且index == media，表示排好顺序的元素已经到了media的位置
+    4存入数组nums[]   index++；// 并不把3存入数组。
+    
+    且index == media，表示排好顺序的元素已经到了media的位置
     
     此时数组nums[]已经保存有排好序的4个元素而第四个元素就是要用于计算media值的一个
     
     不再排序，找到下一个元素5，计算平均值
     
-    虽然上述步骤和归并排序一样，但是因为不需要存储排序好的1,2,3,4，自然就节省了新数组的空间，而时间只需要(nums1Size + nums2Size)/2
+    虽然上述步骤和归并排序一样，但是因为不需要存储排序好的1,2,3,4，自然就节省了新数组的空间。
     
-    对应空间复杂度O(1), 时间复杂度 O(m+n).
+    而时间只需要(nums1Size + nums2Size)/2
+    
+    空间复杂度O(1), 时间复杂度 O(m+n).
     
 ### 解题思路3： 
 
@@ -93,7 +97,7 @@
 代码语言：C
 
 实现内容：解题思路2
-
+```c
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size){
 	double result = 0.0;
 	int indexNum1 = 0;
@@ -171,6 +175,6 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
 
 	return result;
 }
-
+```
 ## 运行结果
 ![image](https://github.com/HFUTAries/img-folder/blob/master/20190907143637.png)
