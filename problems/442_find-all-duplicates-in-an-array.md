@@ -75,6 +75,8 @@ Output:
     实际上，调整后的数组，对应位置不是对应值，也能知道哪些数字没有出现
     比如{1,2,3,4,3,2,7,8};
     第五个位置是3，不仅说明3出现多次，也说明5没有出现过
+    具体可参见leetcode题目448. Find All Numbers Disappeared in an Array
+    https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 
 ## 相关代码：
 
