@@ -10,18 +10,18 @@ Given an array nums with n integers, your task is to check if it could become no
 We define an array is non-decreasing if nums[i] <= nums[i + 1] holds for every i (0-based) such that (0 <= i <= n - 2).  
   
 Example 1:  
-	    Input: nums = [4,2,3]  
-	    Output: true  
-    Explanation: You could modify the first 4 to 1 to get a non-decreasing array.  
+&emsp;&emsp;Input: nums = [4,2,3]  
+&emsp;&emsp;Output: true  
+&emsp;&emsp;Explanation: You could modify the first 4 to 1 to get a non-decreasing array.  
   
 Example 2:  
-    Input: nums = [4,2,1]  
-    Output: false  
-    Explanation: You can't get a non-decreasing array by modify at most one element.  
+&emsp;&emsp;Input: nums = [4,2,1]  
+&emsp;&emsp;Output: false  
+&emsp;&emsp;Explanation: You can't get a non-decreasing array by modify at most one element.  
   
 Constraints:  
-    1 <= n <= 10 ^ 4  
-    - 10 ^ 5 <= nums[i] <= 10 ^ 5  
+&emsp;&emsp;1 <= n <= 10 ^ 4  
+&emsp;&emsp;- 10 ^ 5 <= nums[i] <= 10 ^ 5  
   
 ## 解题思路：
 
