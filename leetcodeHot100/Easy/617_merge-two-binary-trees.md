@@ -52,4 +52,4 @@ struct TreeNode* mergeTrees(struct TreeNode* t1, struct TreeNode* t2) {
 
 	return result;
 }
-```c
+```
