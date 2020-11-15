@@ -48,7 +48,7 @@ Tree 1 Tree 2
 递归调用mergeTrees函数，合并两个二叉树节点，
 
 # 相关代码：
-
+```c
 struct TreeNode\* mergeTrees(struct TreeNode\* t1, struct TreeNode\* t2) {
 
 if (NULL == t1 && NULL == t2)
@@ -100,3 +100,4 @@ result-\>right = mergeTrees(t1-\>right, t2-\>right);
 return result;
 
 }
+```c
